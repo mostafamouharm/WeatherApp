@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weather_app/widgets/no_weather_body.dart';
-import 'package:weather_app/widgets/weather_info_body.dart';
+import 'package:tunes_player_app/widgets/weather_info_body.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
