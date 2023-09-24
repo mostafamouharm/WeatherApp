@@ -1,6 +1,7 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:tunes_player_app/views/home_page.dart';
-
 
 void main() {
   runApp(const MyApp());
@@ -17,6 +18,9 @@ class _MyAppState extends State<MyApp> {
   double height = 120.0;
   @override
   Widget build(BuildContext context) {
-    return const HomePage() ;
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
+    );
   }
 }
